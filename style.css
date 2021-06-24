@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+   font-family: "Poppins", sans-serif;
+}
+
+.main{
+  background-image: url(https://images.unsplash.com/photo-1518972559570-7cc1309f3229?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8bXVzaWMlMjBzdHVkaW98ZW58MHx8MHw%3D&ixlib=rb-1.2.1&w=1000&q=80);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow-y: scroll;
+  font-size: 24px;
+  color: white;
+ 
+}
+
+.main > h1,
+.main > p {
+  text-align: center;
+  font-family: 30px;
+  z-index: 2;
+  position: relative;
+}
+
+.main-content {
+  background-color: rgb(27, 27, 50, .9);
+  max-width: 650px;
+  display: fixed;
+  flex-direction: column;
+  padding: 40px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  z-index: 2;
+  position: relative;
+  box-shadow: 0px -1px 10px 5px black;
+  
+}
+
+#name, #email, #number, #dropdown, #comment {
+  display: block;
+  width: 100%;
+  height: 35px;
+  padding: 5px 10px;
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+label[for=name]
+label[for=email]
+label[for=number]
+label[for=dropdown]
+label[for=comment] {
+  
+marging-bottom: 10px;
+display: inline-block;
+
+}
+  
+
+  fieldset input {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+  }
+
+#comment {
+  min-height: 180px;
+}
+
+label[for=comment]{
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+#submit {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  background: #37af65;
+  border-radius: 2px;
+  cursor: pointer;
+  border: 0;
+  color: #ffffff;
+  font-size: 20px;
+  margin-top: 20px;
+}

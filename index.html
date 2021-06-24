@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+    <link href="style.css" type="text/css" rel="stylesheet"/>
+
+<div class="main">
+
+    <h1 id="title">Music Industry Survey Form</h1>
+    <p  id="description">Thank you for taking the time to help us improve the Music Industry</p>
+    
+  
+  <div class="main-content">
+    <div class="form-content">
+    <form id="survey-form" action="/action_page.php" >
+      <label for="name"id="name-label">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name"required></input>
+      
+      <label for="email" id="email-label" >Email:</label>
+      <input type="email" 
+             id="email" 
+             name="email" 
+             placeholder="Enter your email" required></input>
+           
+      <label for="number" id="number-label" >Age:</label>
+    <input 
+          type="number"
+          name="number"
+          id="number"
+          min="18"
+          max="99"
+          placeholder="Age" required> </input>
+    
+      
+  <label for="dropdown" id="types_of_music">What type of music do you listen to?</label>
+  <select
+         type="dropdown"
+         name"type of music"
+         id="dropdown">
+           <option value="Electronic Music">Electronic Music</option>
+    <option value="Rock">Rock</option>
+    <option value="Hip Hop">Hip Hop</option>
+    <option value="Trap">Trap</option>
+    <option value="Techno">Techno</option>
+    <option value="ambient">Ambient</option>
+  </select>
+  
+  <fieldset>
+    <label for="buy_music" id="buy_music">Would you buy Music?</label>
+  <br>
+    
+  <input id="buy_music" 
+         type="radio"
+         name="buy_music"
+         value="definetly"
+         Id="definetly"
+         >
+    <label for="definetly">Definetly</label>
+    <br>
+  <input id="buy_music" 
+         type="radio"
+         name="buy_music"
+         value="maybe"
+         Id="maybe"
+         >
+  <label for="maybe">Maybe</label>
+  <br>
+  <input id="buy_music" 
+         type="radio"
+         name="buy_music"
+         value="not_at_all"
+         Id="not_at_all"
+         ><label for="not_at_all"> Not at all</label>
+  <br>
+    </fieldset>
+    <br>
+  <label for="platform">What is your favorite platform to listen to music ?</label>
+  <br>
+  <input id="checkbox" type="checkbox" name="platform" value="spotify">
+  <label for="checkbox">Spotify</label>
+  <br>
+  
+  <input id="checkbox" type="checkbox" name="platform" value="youtube">
+  <label for="checkbox">Youtube</label>
+  <br>
+  
+  <input id="checkbox" type="checkbox" name="platform" value="soundcloud">
+  <label for="checkbox">Soundcloud</label>
+  <br>
+  
+  <input id="checkbox" type="checkbox" name="platform" value="bandcamp">
+  <label for="checkbox">Bandcamp</label>
+  <br>
+  <br>
+    
+  <label id="textarea">Additional comments</label>
+  
+  <br>
+  <textarea id="textarea" name="instructions" rows="5" cols="70" placeholder="Enter your comment here">
+  </textarea>
+  <br>
+  <input id="submit" type="submit" value="Submit">
+  </br>
+  </form>
+  </div>
+  </div>
